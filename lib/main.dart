@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:practice/_core/constants/theme.dart';
 import 'package:practice/ui/pages/auth/join_page/join_page.dart';
 import 'package:practice/ui/pages/auth/login_page/login_page.dart';
+import 'package:practice/ui/pages/post/list_page/post_list_page.dart';
 import 'package:practice/ui/pages/splash/splash_page.dart';
 import 'package:practice/ui/widgets/custom_auth_text_form_field.dart';
 import 'package:practice/ui/widgets/custom_logo.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/login": (context) => LoginPage(),
         "/join": (context) => JoinPage(),
-        // "/post/list": (context) => PostListPage(),
+        "/post/list": (context) => PostListPage(),
         // "/post/write": (context) => PostWritePage(),
       },
       theme: theme(),
